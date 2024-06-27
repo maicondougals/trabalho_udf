@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conscientização Ambiental</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        img{
+            width: 300px;
+            height: auto;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .quiz-container {
+            margin-top: 20px;
+        }
+        .quiz-question {
+            font-weight: bold;
+        }
+        .quiz-options {
+            list-style-type: none;
+            padding: 0;
+        }
+        .quiz-options li {
+            margin: 10px 0;
+        }
+        .quiz-result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Conscientização e Educação Ambiental</h1>
+</header>
+
+<div class="container">
+    <h1>Por São Sebastião Melhor</h1>
+    <img class="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHaTpDmcuHytHsKZNJ7LN9x6gUGXPWf8jcig&s" alt="">
+    
+    <p>São Sebastião é uma cidade maravilhosa, com paisagens encantadoras e um ambiente acolhedor. No entanto, algumas áreas da região estão enfrentando um problema preocupante: o acúmulo de lixo em locais inadequados. Isso não só prejudica a beleza natural da cidade, mas também afeta a saúde pública e o meio ambiente.
+
+    <div>
+        <img src="/Captura de Tela 2024-06-27 às 20.15.07.png" alt="">
+        <img src="/Captura de Tela 2024-06-27 às 20.15.20.png" alt="">
+        <img src="/IMG_0125.HEIC" alt="">
+    </div>
+ 
+
+    <p>Uma foto minha caminhando sobre a imensidão de lixo na região de Bom sucesso de São Sebastião. A imagem revela o quão desvalorizada está essa área, com detritos espalhados pelo asfalto e próximos das casas. Além disso, a presença de um pesque e pague nas proximidades agrava a situação, trazendo insalubridade e riscos à saúde para os moradores e frequentadores. É crucial que todos tomemos consciência da gravidade do problema e adotemos medidas para garantir a limpeza e o bem-estar de nossa cidade.</p>
+
+    <p>No momento atual, estamos enfrentando uma alta nos casos de dengue, e o excesso de lixo é um fator crucial para esse aumento. O acúmulo de resíduos proporciona ambientes ideais para a proliferação do mosquito Aedes aegypti, transmissor da dengue, zika e chikungunya. Locais com água parada, como recipientes descartados incorretamente, tornam-se criadouros perfeitos para esses insetos.
+
+        É essencial que a comunidade se conscientize sobre a importância do descarte adequado do lixo. Manter a cidade limpa não só preserva a beleza e valoriza nosso patrimônio, mas também é uma questão de saúde pública. Precisamos de uma ação conjunta entre moradores, autoridades e serviços de coleta para garantir que o lixo seja destinado corretamente e que os espaços urbanos sejam mantidos livres de detritos.</p>
+
+    <h1>Por que não devemos jogar lixo em locais inadequados?</h1>
+    <p>
+        Jogar lixo em locais inadequados é um grande problema ambiental. Ele pode causar poluição da água, do solo e do ar, prejudicando plantas, animais e seres humanos. Além disso, o lixo acumulado pode ser um foco de doenças, atraindo insetos e roedores.
+    </p>
+
+
+    <p>
+        É fundamental que todos façamos a nossa parte, descartando o lixo de forma correta e reciclando sempre que possível. Juntos, podemos manter nosso ambiente limpo e saudável para todos.
+    </p>
+
+
+    <div class="quiz-container">
+        <h2>Teste seus conhecimentos!</h2>
+        <p class="quiz-question">Qual é a maneira correta de descartar resíduos eletrônicos?</p>
+        <ul class="quiz-options">
+            <li><button onclick="checkAnswer('A')">A) Jogar no lixo comum</button></li>
+            <li><button onclick="checkAnswer('B')">B) Levar a um ponto de coleta específico</button></li>
+            <li><button onclick="checkAnswer('C')">C) Queimar</button></li>
+        </ul>
+        <p class="quiz-result" id="quizResult"></p>
+    </div>
+
+    <h1>O que devo fazer para ajudar?</h1>
+    <h2>Fique por dentro dos horários de coleta de suas respectivas regiões</h2>
+    <img src="/Captura de Tela 2024-06-27 às 20.48.40.png" alt="">
+    <h1>Assim como eu te informei, conscientize o próximo!</h1>
+    <img src="/IMG_0057.heic" alt="">
+</div>
+
+
+<script>
+    function checkAnswer(answer) {
+        const resultElement = document.getElementById('quizResult');
+        if (answer === 'B') {
+            resultElement.textContent = 'Correto! Resíduos eletrônicos devem ser levados a pontos de coleta específicos.';
+            resultElement.style.color = 'green';
+        } else {
+            resultElement.textContent = 'Errado. A maneira correta é levar a um ponto de coleta específico.';
+            resultElement.style.color = 'red';
+        }
+    }
+</script>
+
+</body>
+</html>
